@@ -1,0 +1,37 @@
+﻿namespace Interpreter.Tokens
+{
+    enum TokenType
+    {
+        Integer,
+        Double,
+        Open,
+        Cycle,
+        Variable,
+        String,
+        Assign,
+        Add,
+        Subtract,
+        Multiply,
+        Divide,
+        If,
+        Else,
+        Bool,
+        Log,
+        Colon,
+        Coma,
+        Find,
+        Click,
+        Less,
+        Greater,
+        Equal,
+        NotEqual,
+        Increment,
+        EndOfOperation,
+        LeftBracket,
+        RightBracket,
+        Type,
+        LeftParentness,
+        RightParentness,
+        None
+    }
+}
