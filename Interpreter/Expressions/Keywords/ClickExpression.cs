@@ -9,7 +9,6 @@ namespace Interpreter.Expressions.Keywords
 {
     class ClickExpression : IExpression
     {
-
         public IExpression Target { get; set; }
 
         public ClickExpression(IExpression target)
