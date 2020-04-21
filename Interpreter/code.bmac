@@ -1,3 +1,5 @@
-i = 5;
-str = 'shainoha';
-log i + str;
+i = 4;
+
+while i < 7 : {
+     log 'hello';
+}
