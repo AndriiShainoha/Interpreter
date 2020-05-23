@@ -1,5 +1,6 @@
-i = 4;
+i = 0;
 
-while i < 7 : {
-     log 'hello';
+while i < 3 :{
+   open 'https://www.google.com.ua/?hl=ru';
+   i = i + 1;
 }
